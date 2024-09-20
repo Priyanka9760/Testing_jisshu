@@ -127,9 +127,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://aj-flix-hub-movies.koyeb.app/".format(FQDN)
+    URL = "aj-flix-hub-movies.koyeb.app/".format(FQDN)
 else:
-    URL = "http://aj-flix-hub-movies.koyeb.app/".format(FQDN)
+    URL = "aj-flix-hub-movies.koyeb.app/".format(FQDN)
 
 
 # Online Stream and Download
